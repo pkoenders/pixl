@@ -3,8 +3,8 @@ module.exports = {
   /* Your site config here */
 
   siteMetadata: {
-    title: `Pixl - Design Agency.`,
-    description: `Pixl - Design Agency.`,
+    title: `Pixl Studio - New Zealand`,
+    description: `Pixl Studio - New Zealand`,
     author: "Peter Koenders",
     year: "2020",
   },
@@ -106,13 +106,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Pixl Studio - New Zealand`,
+        short_name: `Pixl Studio - New Zealand`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/svg/logo-pixl-simple.inline.svg`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
