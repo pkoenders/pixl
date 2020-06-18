@@ -1,6 +1,6 @@
 ---
-label: test blog
-hide_body: true
+label: test blog 2
+hide_body: false
 fields:
 - name: title
   type: text
@@ -17,3 +17,9 @@ fields:
     schema:
       format: markdown
   label: desription
+- name: color
+  type: color
+  label: color
+  config:
+    required: false
+    color_format: Hex
