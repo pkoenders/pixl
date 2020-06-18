@@ -16,7 +16,7 @@ const VisionMissiom = () => {
     return (
         <section className={ourServicesStyles.ourServices + ' section-layout'}>
             <div className={ourServicesStyles.ourServicesWrapper}>
-                <h1 className={ourServicesStyles.intro}>We provide the end to end experience for creating a digital presence, from branding, logo idenity and custom illustrations to web design &amp; development.</h1>
+                <h1 className={ourServicesStyles.intro}>We provide the end to end experience for creating a digital presence, from graphic design, branding &amp; logo to web design &amp; development.</h1>
 
                 <ul>
                     <li>

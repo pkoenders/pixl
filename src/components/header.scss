@@ -99,14 +99,32 @@ header.header-nav-wrapper {
 
       li {
         a {
-          font-size: 1.4rem;
-          line-height: 2.0rem;
+          font-size: 1.8rem;
+          line-height: 2.4rem;
           color: #ffffff;
           padding: 10px 0;
+          position: relative;
+          width: fit-content;
         }
 
         a:hover {
-          text-decoration: underline !important;
+          //text-decoration: underline !important;
+        }
+
+        a:after {
+          content: '';
+          position: absolute;
+          bottom: 5px;
+          display: block;
+          background: $primaryColor;
+          height: 5px;
+          width: 0;
+          transition: width 150ms ease-in-out;
+        }
+
+
+        a:hover:after {
+          width: 100%;
         }
       }
     }

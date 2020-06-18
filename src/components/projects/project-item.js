@@ -1,11 +1,11 @@
 import React from "react"
 import SEO from "../seo"
 import projectStyles from './project-item.module.scss'
-
 import IconOpenExternal from "../../images/svg/icon-open-external.inline.svg"
 
 //export default function ProjectTemplate({ data }) {
 const ProjectTemplate = ({ data }) => {
+
 
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark

@@ -9,7 +9,7 @@ const VisionMissiom = () => {
             <div className={ourVisionMissionStyles.ourVisionMissionWrapper}>
                 <div>
                     <h2>Our mission</h2>
-                    <p>With professionalism, integraity &amp; care, work in a collaborative manner to plan, design and deliver unique, well crafted web-accessible solutions that are fast, optimised &amp; built to best practices.</p>
+                    <p>With professionalism, integrity &amp; care, work in a collaborative manner to plan, design and deliver unique, well-crafted web-accessible solutions that are fast, optimised &amp; built to best practices.</p>
                 </div>
             </div>
             <hr />

@@ -55,7 +55,7 @@ const WhatWeDo = () => {
                         <ul>
                             <IconBrandingDesign />
                             <li>Modern Web Design</li>
-                            <li>User centered experience</li>
+                            <li>User-centered experience</li>
                             <li>Graphic design &amp; branding</li>
                         </ul>
                         <Img
@@ -76,7 +76,7 @@ const WhatWeDo = () => {
                         <ul>
                             <IconDevelopment />
                             <li>Accessible, fast &amp; secure</li>
-                            <li>Best pratices</li>
+                            <li>Best practices</li>
                             <li>Headless CMS</li>
                         </ul>
                     </div>

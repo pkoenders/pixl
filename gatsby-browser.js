@@ -6,7 +6,7 @@
 
 // You can delete this file if you're not using it
 
-
+import mediumZoom from 'medium-zoom'
 
 
 export const onRouteUpdate = () => {
@@ -14,6 +14,11 @@ export const onRouteUpdate = () => {
 
     // Load page
     document.addEventListener("DOMContentLoaded", ready())
+
+    mediumZoom('.images p span img', {
+        background: '#efeff0',
+    })
+
 
 
 }

@@ -2,7 +2,9 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import ProjectTemplate from "../components/projects/project-item"
+// import mediumZoom from 'medium-zoom'
 import SEO from "../components/seo"
+
 //import latestProjectsStyles from '../components/homepage/latest-projects.module.scss'
 
 export default function Template({
@@ -10,6 +12,11 @@ export default function Template({
 }) {
   // const { markdownRemark } = data // data.markdownRemark holds your post data
   // const { frontmatter, html } = markdownRemark
+
+  // mediumZoom('.images p span img', {
+  //   background: '#efeff0',
+  // })
+
   return (
     <Layout>
       <SEO title="Home" />

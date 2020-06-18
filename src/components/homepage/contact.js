@@ -18,7 +18,7 @@ const ContactForm = () => {
 
                 <div className={contactStyles.contactForm}>
                     <p>We would love to be contacted to discuss work commissions or just hear your thoughts and ideas. We will always reply.</p>
-                    <p>You can call me us (New Zealand) <a href="tel:+64 21 1551 085">+64 21 1551 085</a>. Alternatively, complete the form for email enquires. Thank you.</p>
+                    <p>You can call us (New Zealand) <a href="tel:+64 21 1551 085">+64 21 1551 085</a>. Alternatively, complete the form for email enquires. Thank you.</p>
                     <div className={contactStyles.contactFormInput}>
                         <form
                             name="pixl-contact"
