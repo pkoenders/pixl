@@ -23,7 +23,7 @@ fields:
   label: color
   config:
     required: false
-    color_format: RGB
+    color_format: Hex
   default: "#F5A623"
 pages:
 - content/test blog post.md
