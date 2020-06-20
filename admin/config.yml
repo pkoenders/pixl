@@ -1,0 +1,36 @@
+backend:
+  name: github
+  repo: pkoenders/pixl
+
+media_folder: src/images
+public_folder: /images
+
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
+
+  - name: projects
+    label: Project
+    folder: projects
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: slug, label: Slug }
+      - { name: date, label: Date, widget: datetime }
+      - { name: category, label: Category }
+      - { name: addtohomepage, label: Add to homepage, widget: boolean, default: true }
+      - { name: url, label: URL }
+      - { name: intro, label: Intro Text }
+      - { name: coverimage,
+          label: Cover Image,
+          widget: image",
+          media_library:
+              multiple: true }
+      - { name: body, label: Body, widget: markdown }
