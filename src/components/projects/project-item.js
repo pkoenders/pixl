@@ -9,7 +9,10 @@ const ProjectTemplate = ({ data }) => {
 
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const link = "http://" + frontmatter.url
+  //const link = "http://" + frontmatter.url
+  const link = frontmatter.url
+
+
   return (
     <>
       <style type="text/css">

@@ -2,7 +2,7 @@
 slug: "lynn-pronk-portraits-c"
 date: "2019-01-01"
 category: "Website"
-url: "www.lynpronkportraits.co.nz"
+url: "https://lynn-pronk-datocms.netlify.app"
 addtohomepage: true
 title: "Lynn Pronk Portrits - C"
 coverimage: "./lynn-pronk-a.jpg"
