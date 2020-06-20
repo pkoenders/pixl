@@ -2,7 +2,7 @@ backend:
   name: github
   repo: pkoenders/pixl
 
-media_folder: src/images
+media_folder: ../src/images
 public_folder: /images
 
 collections:
@@ -28,9 +28,5 @@ collections:
       - { name: addtohomepage, label: Add to homepage, widget: boolean, default: true }
       - { name: url, label: URL }
       - { name: intro, label: Intro Text }
-      - { name: coverimage,
-          label: Cover Image,
-          widget: image",
-          media_library:
-              multiple: true }
+      - { name: "coverimage", label: "Cover Image", widget: "image"}
       - { name: body, label: Body, widget: markdown }
