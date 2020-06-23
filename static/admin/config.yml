@@ -21,7 +21,7 @@ collections:
     files:
       - name: projectsOrder
         label: Projects Order
-        file: cms/utils/projectsOrder.md
+        file: netlifycms/settings/projectsOrder.md
         fields:
           - label: Projects List
             name: projectsList
@@ -46,7 +46,7 @@ collections:
 
   - name: projects
     label: Project
-    folder: cms/projects-md
+    folder: netlifycms/projects/
     slug: "{{title}}"
     create: true
     fields:
