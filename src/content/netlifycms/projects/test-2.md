@@ -6,6 +6,6 @@ addtohomepage: true
 url: test 2
 categories: Website
 intro: test 1 sf bcdfbcvb v dsff
-coverimage: ""
+coverimage: /images/web-designer.jpg
 ---
 rfvqwrvv .war .qwr qwr qWR
