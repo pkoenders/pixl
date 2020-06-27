@@ -18,7 +18,7 @@ const LatestProjects = () => {
 
         allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: {frontmatter: {category: {}, posttype: {eq: "project"}}}
+            filter: {frontmatter: {posttype: {eq: "projectNetlifyCMS"}}}
             limit: 1000
             ) 
             {
