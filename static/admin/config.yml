@@ -62,7 +62,7 @@ collections:
       - label: "Slug" 
         name: "slug"
         widget: "hidden"
-        default: "{{slug}}"
+        default: "{{title}}"
         
       - label: "Title" 
         name: "title"
