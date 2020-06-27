@@ -64,9 +64,9 @@ collections:
         required: true
         
       - label: 'Slug' 
-        name: 'slug-a'
+        name: 'slug'
         widget: 'hidden'
-        default: '{{slug}}'
+        default: '{slug}'
     
       - label: "Date" 
         name: "date"
