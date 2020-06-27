@@ -3,9 +3,9 @@ backend:
   repo: pkoenders/pixl
 
 
-media_folder: src/images
-public_folder: src/images
-logo_url: src/images/logo-pixl.inline.svg
+media_folder: "src/images"
+public_folder: "/images"
+logo_url: "src/images/logo-pixl.inline.svg"
 display_url: https://pkoenders-pixl.netlify.app
 
 publish_mode: editorial_workflow
