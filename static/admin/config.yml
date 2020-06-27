@@ -49,7 +49,7 @@ collections:
     label: Project
     folder: src/content/netlifycms/projects/
     media_folder: '{{repo}}/src/images'
-    public_folder: '{{repo}}/src/images'
+    public_folder: '../../../images'
     slug: '{{title}}'
     path: '{{slug}}/index'
     create: true
