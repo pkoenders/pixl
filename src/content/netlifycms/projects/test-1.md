@@ -6,6 +6,6 @@ addtohomepage: true
 url: test-1
 categories: Website
 intro: test-1
-coverimage: /images/ux-wireframes.jpg
+coverimage: ./images/ux-wireframes.jpg
 ---
 test-1 wgsdgsdgdfg sdfds . sdgdfgg sdg
