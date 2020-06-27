@@ -59,15 +59,15 @@ collections:
         widget: 'hidden'
         default: 'projectNetlifyCMS'
 
-      - label: 'Slug' 
-        name: 'slug'
-        widget: 'hidden'
-        default: slug
-        
       - label: "Title" 
         name: "title"
         required: true
-
+        
+      - label: 'Slug' 
+        name: 'slug'
+        widget: 'hidden'
+        default: '{{title}}'
+    
       - label: "Date" 
         name: "date"
         widget: "datetime"
