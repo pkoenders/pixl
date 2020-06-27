@@ -54,15 +54,15 @@ collections:
     path: '{{slug}}/index'
     create: true
     fields:
-      - label: "Post Type" 
-        name: "posttype"
-        widget: "hidden"
-        default: "projectNetlifyCMS"
+      - label: 'Post Type' 
+        name: 'posttype'
+        widget: 'hidden'
+        default: 'projectNetlifyCMS'
 
-      - label: "Slug" 
-        name: "slug"
-        widget: "hidden"
-        default: "{{title}}"
+      - label: 'Slug' 
+        name: 'slug'
+        widget: 'hidden'
+        default: '{{title}}'
         
       - label: "Title" 
         name: "title"
