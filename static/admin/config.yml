@@ -48,7 +48,7 @@ collections:
   - name: projects
     label: Project
     folder: src/content/netlifycms/projects/
-    media_folder: 'src/images'
+    media_folder: '{{repo}}/src/images'
     public_folder: '../../../../images'
     slug: '{{title}}'
     path: '{{slug}}/index'
