@@ -1,6 +1,6 @@
 ---
 posttype: projectNetlifyCMS
-title: test-1
+title: test-2
 date: 2020-06-27T14:51:10.188Z
 addtohomepage: true
 url: test-1
