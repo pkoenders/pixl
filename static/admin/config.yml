@@ -54,9 +54,6 @@ collections:
         name: "posttype"
         widget: "hidden"
         default: "projectNetlifyCMS"
-
-      - label: "Content Type" 
-        name: "projectCMS"
         
       - label: "Title" 
         name: "title"
