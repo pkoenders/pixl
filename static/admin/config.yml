@@ -58,6 +58,11 @@ collections:
         name: "posttype"
         widget: "hidden"
         default: "projectNetlifyCMS"
+
+     - label: "Slug" 
+        name: "slug"
+        widget: "hidden"
+        default: "{{title}}"
         
       - label: "Title" 
         name: "title"

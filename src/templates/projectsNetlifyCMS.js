@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import ProjectTemplate from "../components/projects/project-item"
+import ProjectTemplate from "../components/projects/project-item-netlify-cms"
 // import mediumZoom from 'medium-zoom'
 import SEO from "../components/seo"
 
