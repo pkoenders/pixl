@@ -49,7 +49,6 @@ collections:
     label: Project
     folder: src/content/netlifycms/projects/
     slug: '{{title}}'
-    path: '{{slug}}/index'
     create: true
     fields:
       - label: "Post Type" 
