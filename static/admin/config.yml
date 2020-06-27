@@ -4,9 +4,9 @@ backend:
   use_graphql: true
 
 
-media_folder: "src/images"
-public_folder: "images/" 
-logo_url: "src/images/logo-pixl.inline.svg"
+media_folder: src/images
+public_folder: /images 
+logo_url: src/images/logo-pixl.inline.svg
 display_url: https://pkoenders-pixl.netlify.app
 
 publish_mode: editorial_workflow
@@ -50,8 +50,8 @@ collections:
     folder: src/content/netlifycms/projects/
     slug: "{{title}}"
     path: '{{slug}}/index'
-    media_folder: "../../../src/images"
-    public_folder: "../../../images/" 
+    media_folder: ''
+    public_folder: ''
     create: true
     fields:
       - label: "Post Type" 
