@@ -59,7 +59,7 @@ collections:
         widget: "hidden"
         default: "projectNetlifyCMS"
 
-     - label: "Slug" 
+      - label: "Slug" 
         name: "slug"
         widget: "hidden"
         default: "{{title}}"
