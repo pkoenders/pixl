@@ -26,6 +26,7 @@ const Header = ({ siteTitle }) => (
         <li> <Link to="/" title="Homepage" >Pixl</Link></li>
         <li> <Link to="/services" title="Our services" >Our services</Link></li>
         <li> <Link to="/projects" title="Our projects" >Our projects</Link></li>
+        <li> <Link to="/projects-netlify" title="Our projects (Netlify)" >Our projects (Netlify)</Link></li>
         <li> <Link to="/contact" title="Contact us" >Contact us</Link></li>
       </ul>
 

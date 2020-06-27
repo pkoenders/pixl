@@ -10,17 +10,19 @@
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions
 
-  const blogPostTemplate = require.resolve(`./src/templates/projectsTemplate.js`)
+  const projectsMD = require.resolve(`./src/templates/projectsMD.js`)
+  const projectsNetlifyCMS = require.resolve(`./src/templates/projectsNetlifyCMS.js`)
 
   const result = await graphql(`
       {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          limit: 1000
+          filter: {frontmatter: {category: {}, posttype: {eq: "project"}}}
         ) {
           edges {
             node {
               frontmatter {
+                posttype
                 slug
               }
             }
@@ -35,14 +37,17 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     return
   }
 
+
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    createPage({
-      path: node.frontmatter.slug,
-      component: blogPostTemplate,
-      context: {
-        // additional data can be passed via context
-        slug: node.frontmatter.slug,
-      },
-    })
+    if (node.frontmatter.posttype === 'project') {
+      createPage({
+        path: node.frontmatter.slug,
+        component: projectsMD,
+        context: {
+          // additional data can be passed via context
+          slug: node.frontmatter.slug,
+        },
+      })
+    }
   })
 }

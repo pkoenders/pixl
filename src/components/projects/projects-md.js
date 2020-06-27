@@ -6,7 +6,7 @@ import latestProjectsStyles from '../homepage/latest-projects.module.scss'
 const LatestProjects = () => {
 
     const data = useStaticQuery(graphql`
-    query ProjectsQuery {
+    query ProjectsMDQuery {
   
         lynnPronk: file(relativePath: { eq: "images/projects/lynn-pronk/lynn-pronk-a.jpg" }) {
             childImageSharp {
@@ -18,6 +18,7 @@ const LatestProjects = () => {
 
         allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
+            filter: {frontmatter: {category: {}, posttype: {eq: "project"}}}
             limit: 1000
             ) 
             {

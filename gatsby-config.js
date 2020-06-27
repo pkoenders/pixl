@@ -86,7 +86,15 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `projects-md`,
-        path: `${__dirname}/src/projects-md/`,
+        path: `${__dirname}/src/content/projects-md/`,
+      },
+    },
+
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/src/content/netlifycms/`,
       },
     },
 

@@ -1,12 +1,13 @@
----
-  slug: lynn-pronk-portraits-a
-  date: 2019-05-01
-  category: Website
-  url: http://lynn-pronk-datocms.netlify.app
-  addtohomepage: true
-  title: Lynn Pronk Portraits A
-  coverimage: ./lynn-pronk-a.jpg
-  intro: This is a portfolio website designed and built for Lynn Pronk, a portrait artist. Displying the artwork at its best, fitting the browser window where possible was a requst client request.
+---  
+    posttype: project
+    slug: lynn-pronk-portraits-a
+    date: 2019-05-01
+    category: Website
+    url: http://lynn-pronk-datocms.netlify.app
+    addtohomepage: true
+    title: Lynn Pronk Portraits A
+    coverimage: ./lynn-pronk-a.jpg
+    intro: This is a portfolio website designed and built for Lynn Pronk, a portrait artist. Displying the artwork at its best, fitting the browser window where possible was a requst client request.
 ---
 
 <div class="description">

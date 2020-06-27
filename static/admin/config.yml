@@ -21,7 +21,7 @@ collections:
     files:
       - name: projectsOrder
         label: Projects Order
-        file: netlifycms/settings/projectsOrder.md
+        file: src/content/netlifycms/settings/projectsOrder.md
         fields:
           - label: Projects List
             name: projectsList
@@ -46,16 +46,25 @@ collections:
 
   - name: projects
     label: Project
-    folder: netlifycms/projects/
+    folder: src/content/netlifycms/projects/
     slug: "{{title}}"
     create: true
     fields:
+      - label: "Post Type" 
+        name: "posttype"
+        widget: "hidden"
+        default: "projectNetlifyCMS"
+
+      - label: "Content Type" 
+        name: "projectCMS"
+        
       - label: "Title" 
         name: "title"
+        required: true
 
       - label: "Date" 
         name: "date"
-        widget: "datetime" 
+        widget: "datetime"
 
       - label: "Add to homepage"
         name: "addtohomepage"
