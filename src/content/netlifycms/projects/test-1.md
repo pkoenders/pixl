@@ -6,5 +6,6 @@ addtohomepage: true
 url: test-1
 categories: Website
 intro: test-1 intro
+coverimage: /images/web-designer-b.jpg
 ---
 test 1 content
