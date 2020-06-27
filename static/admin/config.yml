@@ -48,10 +48,10 @@ collections:
   - name: projects
     label: Project
     folder: src/content/netlifycms/projects/
+    media_folder: ''
+    public_folder: ''
     slug: '{{title}}'
     path: '{{slug}}/index'
-    media_folder: 'src/images'
-    public_folder: '/images'
     create: true
     fields:
       - label: "Post Type" 
