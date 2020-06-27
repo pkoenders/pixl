@@ -31,7 +31,7 @@ const ProjectTemplate = ({ data }) => {
             <div className={projectStyles.header}>
               <h1>{frontmatter.title}</h1>
               <p>
-                {frontmatter.category}<br />
+                {/* {frontmatter.category}<br /> */}
                 {frontmatter.date}<br />
                 <a href={link} title={frontmatter.title} target="_blank"><IconOpenExternal />{frontmatter.url}</a>
               </p>
