@@ -62,13 +62,6 @@ collections:
       - label: "Title" 
         name: "title"
         required: true
-
-      - slug: '{{title}}'
-        
-      - label: 'Slug Path' 
-        name: 'slugPath'
-        widget: 'hidden'
-        default: '{{title}}'
     
       - label: "Date" 
         name: "date"
@@ -77,10 +70,6 @@ collections:
       - label: "Add to homepage"
         name: "addtohomepage"
         widget: "boolean"
-        required: false
-
-      - label: "URL"  
-        name: "url"
         required: false
 
       - label: "Category"
