@@ -63,7 +63,7 @@ collections:
         name: "title"
         required: true
         
-      - label: 'Slug' 
+      - label: 'Slug Path' 
         name: 'slug-path'
         widget: 'hidden'
         default: '{{slug}}'
