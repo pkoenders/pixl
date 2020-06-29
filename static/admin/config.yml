@@ -66,7 +66,7 @@ collections:
       - label: 'Slug' 
         name: 'slug-path'
         widget: 'hidden'
-        valueField: "{{slug}}"
+        default: '{{slug}}'
     
       - label: "Date" 
         name: "date"
@@ -85,7 +85,7 @@ collections:
         name: "categories"
         widget: "select"
         options: ["Website", "Print", "Branding"]
-        default: "Website"
+        default: ["Website"]
 
       - label: "Intro"
         name: "intro"
