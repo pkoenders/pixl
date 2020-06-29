@@ -65,11 +65,11 @@ collections:
 
       - widget: string
         name: slug
-        label: Slug
+        label: Slug (URL)
         required: true
         pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$','A slug can have no spaces or special characters']
         hint: >-
-          The post URL (do not include folder or file extension)
+          The unique post URL (do not include folder or file extension)
     
       - label: "Date" 
         name: "date"
