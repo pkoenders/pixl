@@ -4,6 +4,8 @@
     display: block;
     position: relative;
     background-color: $headerBgColor;
+
+
     background-color: #000000;
 
     div.intro {
@@ -112,6 +114,10 @@
 section.whatWeDoWrapper {
     margin-top: -60px !important;
     background-color: #efeff0;
+
+    background: rgb(212, 212, 212);
+    background: linear-gradient(174deg, rgba(212, 212, 212, 1) 0%, rgba(239, 239, 240, 1) 83%);
+
     padding-bottom: 120px;
     text-align: center;
 

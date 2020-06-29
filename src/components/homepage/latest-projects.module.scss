@@ -5,6 +5,10 @@
     background-color: #657688;
     background-color: #efeff0;
     background-color: #253240;
+
+    background: rgb(65, 87, 111);
+    background: radial-gradient(circle, rgba(65, 87, 111, 1) 0%, rgba(37, 50, 64, 1) 100%);
+
     padding: $globalSecionPadding;
 
     h2 {

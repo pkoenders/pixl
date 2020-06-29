@@ -64,7 +64,7 @@ collections:
         required: true
         
       - label: 'Slug' 
-        name: 'slug'
+        name: 'slug-path'
         widget: 'hidden'
         default: '{slug}'
     
