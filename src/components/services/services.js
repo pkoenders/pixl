@@ -21,7 +21,7 @@ const VisionMissiom = () => {
                 <ul>
                     <li>
                         <IconBrandingDesign />
-                        <h3>Branding &amp; Graphic design</h3>
+                        <h3>Branding &amp; graphic design</h3>
                         <p>Creating or refreshing a brand for your business is a big deal and there’s a lot to cover. From strategy to ideation, we’ll work intimately with you to get the right message to the right audience.</p>
                         <p>We’ll take these foundational principles through to logo design, custom asset creation and wrap it all up in a digital brand style guide - a design bible for your business.</p>
                     </li>

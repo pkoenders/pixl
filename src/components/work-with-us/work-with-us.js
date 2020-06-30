@@ -1,7 +1,7 @@
 import React from 'react'
 import contactStyles from '../homepage/contact.module.scss'
 import { useForm, ErrorMessage } from "react-hook-form"
-
+import IconWave from "../../images/svg/icon-wave.inline.svg"
 
 const ConsoltationForm = () => {
     const { register, handleSubmit, errors } = useForm();
@@ -17,6 +17,7 @@ const ConsoltationForm = () => {
             <div className={contactStyles.contactFormWrapper}>
 
                 <div className={contactStyles.contactForm}>
+                    <IconWave />
                     <p>We would love to be contacted to discuss work commissions or just hear your thoughts and ideas. We will always reply.</p>
                     <p>You can call us (New Zealand) <a href="tel:+64 21 1551 085">+64 21 1551 085</a>. Alternatively, complete the form for email enquires. Thank you.</p>
                     <div className={contactStyles.contactFormInput}>
@@ -47,40 +48,6 @@ const ConsoltationForm = () => {
                             </p>
 
                             <p>
-                                <label htmlFor="name">
-                                    <span>Your business name</span>
-                                    <input
-                                        type="text"
-                                        name="business-name"
-                                        placeholder="Business name"
-                                        id="name"
-                                        ref={register({
-                                            required: "Your name is required",
-                                            maxLength: 80,
-                                            message: 'Please enter your name'
-                                        })} />
-                                    <ErrorMessage errors={errors} name="name" as="em" />
-                                </label>
-                            </p>
-
-                            <p>
-                                <label htmlFor="name">
-                                    <span>Existing website (if applicable)</span>
-                                    <input
-                                        type="text"
-                                        name="website-name"
-                                        placeholder="https://mybusinessname.com"
-                                        id="name"
-                                        ref={register({
-                                            required: "Your name is required",
-                                            maxLength: 80,
-                                            message: 'Please enter your name'
-                                        })} />
-                                    <ErrorMessage errors={errors} name="name" as="em" />
-                                </label>
-                            </p>
-
-                            <p>
                                 <label htmlFor="email">
                                     <span>Email (required)</span>
                                     <input
@@ -90,7 +57,7 @@ const ConsoltationForm = () => {
                                         id="email"
                                         placeholder="Email"
                                         ref={register({
-                                            required: "Please enter your email",
+                                            required: "Please enter your email address",
                                             pattern: {
                                                 value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
                                                 message: "Invalid email address"
@@ -99,9 +66,35 @@ const ConsoltationForm = () => {
                                     <ErrorMessage errors={errors} name="email" as="em" />
                                 </label>
                             </p>
+
+                            <p>
+                                <label htmlFor="businessName">
+                                    <span>Your business name</span>
+                                    <input
+                                        type="text"
+                                        name="business-name"
+                                        placeholder="Business name"
+                                        id="businessName"
+                                    />
+
+                                </label>
+                            </p>
+
+                            <p>
+                                <label htmlFor="businessWebsite">
+                                    <span>Existing website (if applicable)</span>
+                                    <input
+                                        type="text"
+                                        name="website-name"
+                                        placeholder="https://mybusinessname.com"
+                                        id="businessWebsite"
+                                    />
+                                </label>
+                            </p>
+
+
                             <p>What services are you loooking for?</p>
                             <p>
-
                                 <label htmlFor="webdesign">
                                     <span>Web design &amp; develpment</span>
                                     <input type="checkbox" name="webdesign" id="webdesign" />

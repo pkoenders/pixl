@@ -19,32 +19,33 @@ const DesignProcess = () => {
 
                         <ol>
                             <li>
-                                <h4>Goal identification</h4>
-                                <p>We work with you to determine what are the goals that need to fulfil. I.e., what is the purpose of the project?</p>
+                                <h4>Research &amp; goal identification</h4>
+                                <p>We work with you to determine who are your customers, what are your goals and what are the goals that need to fulfil. I.e., what is the purpose of the project?</p>
                             </li>
                             <li>
                                 <h4>Discovery, scope &amp; definition</h4>
-                                <p>Knowing what the goals are, we can define the scope of the project. I.e., what elements and features are required to fulfil the goal, and the time-line for building those out.</p>
+                                <p>Knowing what the goals are, we can define the scope of the project. I.e., what elements and features are required to fulfil the goal, and the time-line for building those out. Keepall stskeholders in the loop.</p>
                             </li>
                             <li>
-                                <h4>Site-map &amp; wire-frame creation</h4>
-                                <p>Knowing the scope and definition, a map can created defining how content and features will interrelate.</p>
+                                <h4>Wire-frame creation</h4>
+                                <p>Knowing the scope and definition, a map can created defining how content and features will interrelate. Test (with actual users where possible), itterate and test again</p>
                             </li>
-                            <li>
-                                <h4>Content creation</h4>
-                                <p>Having bigger picture in mind, it's mostly essential to have real content to work with.</p>
-                            </li>
+
                             <li>
                                 <h4>Visual elements</h4>
-                                <p>With the architecture and some content in place, we can start working on the visual elements. Depending on the client, this may already be well-defined, but you might also be defining the visual style from the ground up. Tools like style tiles, mood-boards, and element collages can help with this process.</p>
+                                <p>With wire-frames in place in place, we can start working on the visual elements. Depending on the client, this may already be well-defined, but you might also be defining the visual style from the ground up. Tools like style tiles, mood-boards, and element hi-fi/html templates can help with this process.</p>
                             </li>
                             <li>
                                 <h4>Testing</h4>
-                                <p>By now, you've got all your pages and defined how they display to the site visitor, so it's time to make sure it all works. Combine manual browsing of the site on a variety of devices with automated site crawlers to identify everything from user experience issues to simple broken links.</p>
+                                <p>By now, you've got all your pages and defined how they display to the site visitor, so it's time to make sure it all works. Combine manual browsing of the site on a variety of devices with automated site crawlers to identify everything from user experience issues to simple broken links. Test test test - Did I mention test?</p>
                             </li>
                             <li>
-                                <h4>Launch</h4>
+                                <h4>Delivery</h4>
                                 <p>Once everything's working beautifully, it's time to plan and execute your site launch! This should include planning both launch timing and communication strategies — i.e., when will you launch and how will you let the world know?</p>
+                            </li>
+                            <li>
+                                <h4>Support implementation</h4>
+                                <p>Be available to anyone / everyone who have any questions. It is important to keep communication open and maintain a level of trust we work hard to build within teams.</p>
                             </li>
                         </ol>
                     </li>

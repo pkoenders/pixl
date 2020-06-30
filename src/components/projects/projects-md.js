@@ -33,7 +33,7 @@ const LatestProjects = () => {
                         title
                         coverimage{
                             childImageSharp {
-                                fluid(maxWidth: 1200, quality: 100) {
+                                fluid(maxWidth: 1280, quality: 100) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
@@ -65,7 +65,7 @@ const LatestProjects = () => {
                                 />
                                 <span>
                                     <h4>{edge.node.frontmatter.title}</h4>
-                                    {/* <p>{edge.node.frontmatter.intro}.</p> */}
+                                    <p>{edge.node.frontmatter.intro}</p>
                                 </span>
                             </Link>
                         </li>

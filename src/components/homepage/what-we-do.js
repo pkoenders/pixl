@@ -69,14 +69,14 @@ const WhatWeDo = () => {
                     </div>
                     <div>
                         <span>
-                            <p>We deliver modern, accessible, fast, most appealing and future proof websites, portals and web applications, built on the latest technologies and frameworks, customised to meet your business objectives.</p>
+                            <p>We deliver modern, accessible, quick, most appealing and future proof websites, portals and web applications, built on the latest technologies and frameworks, customised to meet your business objectives.</p>
                             <IconDevice />
                             <p>Good user experience and interface is the key to customers' loyalty. Our work is always considered for mobile and desktop so your customers find it effortless to navigate your website on the go and look great on any display.</p>
                         </span>
                         <ul>
                             <IconDevelopment />
-                            <li>Accessible, fast &amp; secure</li>
-                            <li>Best practices</li>
+                            <li>Accessible, quick &amp; secure</li>
+                            <li>Best practice</li>
                             <li>Headless CMS</li>
                         </ul>
                     </div>

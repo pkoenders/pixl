@@ -1,6 +1,7 @@
 import React from 'react'
 import contactStyles from './contact.module.scss'
 import { useForm, ErrorMessage } from "react-hook-form"
+import IconWave from "../../images/svg/icon-wave.inline.svg"
 
 const ContactForm = () => {
     const { register, handleSubmit, errors } = useForm();
@@ -17,6 +18,7 @@ const ContactForm = () => {
             <div className={contactStyles.contactFormWrapper}>
 
                 <div className={contactStyles.contactForm}>
+                    <IconWave />
                     <p>We would love to be contacted to discuss work commissions or just hear your thoughts and ideas. We will always reply.</p>
                     <p>You can call us (New Zealand) <a href="tel:+64 21 1551 085">+64 21 1551 085</a>. Alternatively, complete the form for email enquires. Thank you.</p>
                     <div className={contactStyles.contactFormInput}>

@@ -1,8 +1,6 @@
 @import "src/styles/scss";
 
 section.sectionProject {
-
-
     .sectionProjectWrapper {
         max-width: 1200px;
         margin: 120px auto;
@@ -11,7 +9,7 @@ section.sectionProject {
             padding: 0 15px;
 
             .header {
-                width: 33%;
+                //width: 33%;
 
                 // position: sticky;
                 // top: 120px;
@@ -53,21 +51,33 @@ section.sectionProject {
                 div+div {
 
                     width: auto;
+
                     flex: 2;
                     top: 0;
                     margin: 0;
-                    padding: 30px;
-                    background-color: #ffffff;
+
 
 
                     p {
-                        margin: 0;
+                        border-radius: $globalBorderRadiusA;
+                        padding: 30px;
+                        background-color: #ffffff;
+                        display: block;
+                        box-shadow: $globalBoxShadowB;
+
+                        margin: 0 0 60px 0;
 
                         span {
+
+
+
+
+
                             border-radius: $globalBorderRadiusA;
-                            overflow: hidden;
+                            //overflow: hidden;
                             display: block;
                             margin-bottom: 30px;
+
 
                         }
                     }
