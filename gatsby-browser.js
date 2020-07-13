@@ -16,7 +16,8 @@ export const onRouteUpdate = () => {
     document.addEventListener("DOMContentLoaded", ready())
 
     mediumZoom('.images p span img', {
-        background: '#efeff0',
+        //background: '#efeff0',
+        background: '#ffffff',
     })
 
 

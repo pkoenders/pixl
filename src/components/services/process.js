@@ -20,28 +20,31 @@ const DesignProcess = () => {
                         <ol>
                             <li>
                                 <h4>Research &amp; goal identification</h4>
-                                <p>We work with you to determine who are your customers, what are your goals and what are the goals that need to fulfil. I.e., what is the purpose of the project?</p>
+                                <p>We work with you to define who are your customers, what is the purpose of the project and what are the goals and deliverables that need be fulfilled.</p>
                             </li>
                             <li>
                                 <h4>Discovery, scope &amp; definition</h4>
-                                <p>Knowing what the goals are, we can define the scope of the project. I.e., what elements and features are required to fulfil the goal, and the time-line for building those out. Keepall stskeholders in the loop.</p>
+                                <p>Knowing the project goals are, we can define the scope of the project. I.e., what elements and features are required to fulfil the goal, and the time-line for building those out. Collaborate and build relationships with stakeholders.</p>
                             </li>
                             <li>
                                 <h4>Wire-frame creation</h4>
-                                <p>Knowing the scope and definition, a map can created defining how content and features will interrelate. Test (with actual users where possible), itterate and test again</p>
-                            </li>
-
-                            <li>
-                                <h4>Visual elements</h4>
-                                <p>With wire-frames in place in place, we can start working on the visual elements. Depending on the client, this may already be well-defined, but you might also be defining the visual style from the ground up. Tools like style tiles, mood-boards, and element hi-fi/html templates can help with this process.</p>
+                                <p>Knowing the scope and definition, a map can created defining how content and features will interrelate. Test (with actual users where possible), iterate and test again.</p>
                             </li>
                             <li>
                                 <h4>Testing</h4>
-                                <p>By now, you've got all your pages and defined how they display to the site visitor, so it's time to make sure it all works. Combine manual browsing of the site on a variety of devices with automated site crawlers to identify everything from user experience issues to simple broken links. Test test test - Did I mention test?</p>
+                                <p>With the elements defined, test how they display to the user. Ensure these elements work. Identify everything from user experience issues to simple broken links.</p>
                             </li>
                             <li>
-                                <h4>Delivery</h4>
-                                <p>Once everything's working beautifully, it's time to plan and execute your site launch! This should include planning both launch timing and communication strategies — i.e., when will you launch and how will you let the world know?</p>
+                                <h4>Visual elements</h4>
+                                <p>With in wire-frames (lo-fi) in place, we can start working on the visual elements. Depending on the client, this may already be well-defined, but you might also be defining the visual style from the ground up. Tools like style guides, mood-boards, and hi-fi/html templates can help with this process.</p>
+                            </li>
+                            <li>
+                                <h4>Testing</h4>
+                                <p>Test test test - Did I mention test?</p>
+                            </li>
+                            <li>
+                                <h4>Implementation &amp; delivery</h4>
+                                <p>Work closely with developers and engineers to mitigate any potential miscommunication and reduce double handling of assets.</p>
                             </li>
                             <li>
                                 <h4>Support implementation</h4>
