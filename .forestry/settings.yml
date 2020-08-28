@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: forestryAdmin
 webhook_url: 
 sections:
+- type: heading
+  label: heading 1
 - type: directory
   path: content
   label: AnotherTest
@@ -11,8 +13,6 @@ sections:
   match: "**/*"
   templates:
   - test-blog
-- type: heading
-  label: heading 1
 - type: heading
   label: Content
 - type: heading

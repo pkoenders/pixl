@@ -25,5 +25,3 @@ fields:
     required: false
     color_format: Hex
   default: "#F5A623"
-pages:
-- content/test blog post.md
